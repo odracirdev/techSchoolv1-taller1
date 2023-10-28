@@ -1,0 +1,130 @@
+:root {
+  --bg-primary: #fafafa;
+  --ptop: 5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  font-family: Poppins, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--ptop);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--ptop);
+}
+
+header img {
+  width: 300px;
+}
+
+.header-img-left {
+  padding-right: 2rem;
+}
+
+.header-text {
+  width: 520px;
+}
+
+.header-img-right {
+  padding-left: 2rem;
+}
+
+.header-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 2.8rem;
+  color: #28263e;
+}
+
+.header-text p {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.container-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-left {
+  background-color: #1997aa;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+.button-right {
+  background-color: #8c5db0;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+.button-left span {
+  color: #79edff;
+}
+
+.gallery-container {
+  padding: 5rem 0;
+  margin: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-container span {
+  color: #ccc;
+  border: #ccc 1px solid;
+  border-radius: 9999px;
+  padding: 10px;
+}
+
+.gallery {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.gallery-desc {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 520px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  background-image: url('https://github.com/ACdev27/fm_meet_landing_page/blob/main/images/desktop/image-footer.jpg?raw=true');
+}
